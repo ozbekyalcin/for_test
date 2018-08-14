@@ -11,15 +11,15 @@ class LoginPageLocators(object):
 class SearchLocators(object):
     SEARCH_FIELD = (By.ID, "searchData")
     SEARCH_BUTTON = (By.CLASS_NAME, ".searchBtn")
-    SEARCH_RESULT = (By.CLASS_NAME, ".resultText")
     CLOSE_POP_UP = (By.CLASS_NAME, ".seg-popup-close")
+
 
 class PaginationLocators(object):
     SECOND_PAGE = (By.CSS_SELECTOR, ".pagination a:nth-child(2)")
 
 
 class ThirdProductLocators(object):
-    ADD_FAVORITE_THIRD_PRODUCT = (By.CSS_SELECTOR, "#view > ul > li:nth-child(3) .textImg.followBtn")
+        ADD_FAVORITE_THIRD_PRODUCT = (By.CSS_SELECTOR, "#p-236971786 span.textImg.followBtn")
 
 
 class FavoriteProducts(object):
