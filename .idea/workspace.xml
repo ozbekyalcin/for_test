@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4ce21c-369a-4e01-b5d9-6aa59378bff9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_on_n11_website.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +30,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="md" value="1" />
           <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="1" />
           <entry key="Python" value="6" />
         </counts>
       </usages-collector>
@@ -69,17 +66,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_on_n11_website.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+            <state relative-caret-position="272">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <marker date="1534205364985" expanded="true" signature="994:995" ph="..." />
                 <marker date="1534205364985" expanded="true" signature="994:999" ph="..." />
                 <marker date="1534205364985" expanded="true" signature="2738:3079" ph="..." />
                 <marker date="1534205364985" expanded="true" signature="3098:3107" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -93,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/locators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="278">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <marker date="1534204625891" expanded="true" signature="102:107" ph="..." />
@@ -137,10 +144,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="32" />
-    <option name="y" value="-11" />
-    <option name="width" value="1335" />
-    <option name="height" value="780" />
+    <option name="x" value="1696" />
+    <option name="y" value="26" />
+    <option name="width" value="999" />
+    <option name="height" value="550" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -304,9 +311,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_on_n11_website_Test_test_go_to_second_page_and_confirm_second_page_exist - 2018.08.14 at 03h 04m 22s.xml">
-      <configuration name="Unittests for test_on_n11_website.Test.test_go_to_second_page_and_confirm_second_page_exist" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_on_n11_website_Test_test_go_to_second_page_and_confirm_second_page_exist - 2018.08.14 at 03h 05m 12s.xml">
       <configuration name="Unittests for test_on_n11_website.Test.test_go_to_second_page_and_confirm_second_page_exist" configurationId="tests" />
     </history-entry>
@@ -334,23 +338,25 @@
     <history-entry file="Unittests_for_test_on_n11_website_Test_test_go_to_second_page_and_confirm_second_page_exist - 2018.08.14 at 03h 10m 42s.xml">
       <configuration name="Unittests for test_on_n11_website.Test.test_go_to_second_page_and_confirm_second_page_exist" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_on_n11_website_Test_test_go_to_second_page_and_confirm_second_page_exist - 2018.08.14 at 03h 11m 28s.xml">
+      <configuration name="Unittests for test_on_n11_website.Test.test_go_to_second_page_and_confirm_second_page_exist" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="-11" width="1335" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="89" y="272" width="1333" height="744" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24941725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.35248446" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.34415585" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40527952" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40527952" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,27 +429,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1534204625891" expanded="true" signature="102:107" ph="..." />
-            <marker date="1534204625891" expanded="true" signature="255:260" ph="..." />
-            <marker date="1534204625891" expanded="true" signature="431:436" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_on_n11_website.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+        <state relative-caret-position="272">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <marker date="1534205364985" expanded="true" signature="994:995" ph="..." />
             <marker date="1534205364985" expanded="true" signature="994:999" ph="..." />
             <marker date="1534205364985" expanded="true" signature="2738:3079" ph="..." />
             <marker date="1534205364985" expanded="true" signature="3098:3107" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1534204625891" expanded="true" signature="102:107" ph="..." />
+            <marker date="1534204625891" expanded="true" signature="255:260" ph="..." />
+            <marker date="1534204625891" expanded="true" signature="431:436" ph="..." />
           </folding>
         </state>
       </provider>
