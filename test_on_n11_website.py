@@ -62,5 +62,6 @@ class Test(unittest.TestCase):
         current_page_url = self.driver.current_url
         self.assertIn('pg=2', current_page_url, 'Page change failed.')
 
+
     def tearDown(self):
         self.driver.quit()
