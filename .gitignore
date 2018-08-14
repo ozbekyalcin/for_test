@@ -12,6 +12,7 @@
 *.zip
 *.pyc
 *.ini
+!SikuliXImageSearch.jar
 
 # Logs and databases #
 ######################
@@ -52,4 +53,4 @@ android/
 gulpfile.js
 bower.json
 geckodriver.log
-aws_yuki_config.json
+log_generate_test.txt
