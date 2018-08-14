@@ -49,6 +49,7 @@ class Test(unittest.TestCase):
         self.test_user_login_in_to_the_website()
         self.click(SearchLocators.SEARCH_FIELD)
         self.get_wait().until(ec.element_to_be_clickable(SearchLocators.SEARCH_FIELD)).send_keys("samsung")
+        self.click(SearchLocators.CLOSE_POP_UP)
         self.click(SearchLocators.SEARCH_BUTTON)
         result_text = "sonuçbulundu."
         self.assertIn(result_text, self.driver.execute_script("return $('.resultText').text().replace(/\s/g,'')")
@@ -62,6 +63,33 @@ class Test(unittest.TestCase):
         current_page_url = self.driver.current_url
         self.assertIn('pg=2', current_page_url, 'Page change failed.')
 
+    def test_click_add_product_in_favorite(self):
+        self.test_go_to_second_page_and_confirm_second_page_exist()
+        self.driver.execute_script("window.scrollBy(0,1400)")
+        time.sleep(2)
+        self.click(ThirdProductLocators.ADD_FAVORITE_THIRD_PRODUCT)
+
+    def test_click_my_favorite(self):
+        self.test_click_add_product_in_favorite()
+        self.driver.execute_script('window.scrollTo(0, 0)')
+        hover_to_menu = self.driver.find_element_by_class_name('myAccount')
+        ActionChains(self.driver).move_to_element(hover_to_menu).perform()
+        self.click(FavoriteProducts.MY_FAVORITE)
+
+    def test_check_favorite_list(self):
+        self.test_click_my_favorite()
+        product_url_in_favorite_list = self.driver.execute_script(
+            "return $('.listItemProductList > li > a').attr('href')")
+        self.assertIn("https://", product_url_in_favorite_list)
+
+    def test_delete_product_in_favorite(self):
+        self.test_check_favorite_list()
+        self.click(FavoritePageLocators.GO_TO_FAVORITE_PRODUCT_LIST)
+        self.click(FavoritePageLocators.DELETE_FAVORITE_PRODUCT)
+        self.click(FavoritePageLocators.CONFIRM_DELETE_FAVORITE_PRODUCT)
+        empty_favorite_list_text = self.get_wait().until(
+            ec.element_to_be_clickable(FavoritePageLocators.EMPTY_FAVORITE_LIST)).text
+        self.assertEqual("İzlediğiniz bir ürün bulunmamaktadır.", empty_favorite_list_text.encode('utf-8'))
 
     def tearDown(self):
         self.driver.quit()
