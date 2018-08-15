@@ -50,7 +50,6 @@ class SearchDataControls(Configuration):
     def search_data_and_confirm_data_exist(self):
         self.get_wait().until(ec.element_to_be_clickable(SearchLocators.SEARCH_FIELD)).send_keys("samsung")
         self.click(SearchLocators.SEARCH_BUTTON)
-        self.click(SearchLocators.CLOSE_POP_UP)
 
 
 class SecondPageControls(Configuration):
@@ -63,7 +62,7 @@ class FavoriteProductControls(Configuration):
     def click_add_product_in_favorite(self):
         self.driver.execute_script("window.scrollBy(0,800)")
         time.sleep(2)
-        self.click(ThirdProductLocators.ADD_FAVORITE_THIRD_PRODUCT)
+        self.driver.execute_script("$('div[data-position=31] .followBtn')[0].click()")
 
 
 class FavoritePageControls(Configuration):
