@@ -23,6 +23,5 @@ class FavoriteProducts(object):
 
 class FavoritePageLocators(object):
     GO_TO_FAVORITE_PRODUCT_LIST = (By.CSS_SELECTOR, ".listItemWrap > a > h4")
-    DELETE_FAVORITE_PRODUCT = (By.CLASS_NAME, ".deleteProFromFavorites")
     CONFIRM_DELETE_FAVORITE_PRODUCT = (By.CSS_SELECTOR, ".btn.btnBlack.confirm")
     EMPTY_FAVORITE_LIST = (By.CSS_SELECTOR, ".emptyWatchList.hiddentext")

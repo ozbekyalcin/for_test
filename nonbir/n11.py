@@ -76,5 +76,5 @@ class FavoritePageControls(Configuration):
 class DeleteFavoriteList(Configuration):
     def delete_product_in_favorite(self):
         self.click(FavoritePageLocators.GO_TO_FAVORITE_PRODUCT_LIST)
-        self.click(FavoritePageLocators.DELETE_FAVORITE_PRODUCT)
+        self.driver.execute_script("$('.deleteProFromFavorites').click()")
         self.click(FavoritePageLocators.CONFIRM_DELETE_FAVORITE_PRODUCT)
