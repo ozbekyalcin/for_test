@@ -7,3 +7,4 @@ from selenium.webdriver.support import expected_conditions as ec
 import time
 from selenium.common.exceptions import *
 from selenium.webdriver.common.action_chains import ActionChains
+import ConfigParser
